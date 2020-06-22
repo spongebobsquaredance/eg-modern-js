@@ -4,6 +4,7 @@
   "description": "egghead-modern-js-tooling",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/spongebobsquaredance/eg-modern-js/issues"
   },
-  "homepage": "https://github.com/spongebobsquaredance/eg-modern-js#readme"
+  "homepage": "https://github.com/spongebobsquaredance/eg-modern-js#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
 }
