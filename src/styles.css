@@ -1,3 +1,7 @@
 body {
   background: gainsboro;
 }
+
+.warning {
+  color: tomato;
+}
